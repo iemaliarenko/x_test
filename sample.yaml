@@ -1,0 +1,8 @@
+sample:
+  description: x test
+  name: x test
+tests:
+  sample.bluetooth.beacon:
+    harness: bluetooth
+    platform_allow: nrf52840dk_nrf52840
+    tags: uart bluetooth
