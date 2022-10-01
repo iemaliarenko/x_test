@@ -1,24 +1,25 @@
-####################
-Env:
-Ubuntu 22.04.1 LTS
-VSCode Version: 1.71.2
-Toolchains v2.1.0
-nRF Connect for Desktop v3.12.0
-Programmer v3.0.4
+# X TEST
 
-Based on: Bluetooth: Beacon UART Driver Sample
+# Env:
+* Ubuntu 22.04.1 LTS
+* VSCode Version: 1.71.2
+* Toolchains v2.1.0
+* nRF Connect for Desktop v3.12.0
+* Programmer v3.0.4
+
+# Based on: Bluetooth: Beacon UART Driver Sample
 ***********************************************
 
 Build and flash the test as follows, board ``nrf52840dk_nrf52840`` :
 
-.. zephyr-app-commands::
-   :zephyr-app: x test
-   :board: nrf52840dk_nrf52840
-   :goals: build flash
-   :compact:
+* .. zephyr-app-commands::
+*   :zephyr-app: x test
+*   :board: nrf52840dk_nrf52840
+*   :goals: build flash
+*   :compact:
 
 Consol: use minicom --device /dev/ttyACM<x>
-***********************************************
+
 
 *** Booting Zephyr OS build v3.1.99-ncs1  ***                                   
 Bluetooth initialized                                                           
